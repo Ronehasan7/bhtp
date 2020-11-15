@@ -37,6 +37,9 @@ h1{
     .home-typingandvideo-section{
         height: 70vh;
     }
+    .typing-column {
+        margin-bottom: 20px;
+    }
     .typing-column h1 {
         font-size: 20px;
     }
@@ -58,7 +61,31 @@ h1{
 .amazing-investor {
 	background-color: #3f49b0;
 	padding: 30px 0px;
-	color: white;
 	text-align: center;
 }
-/*== amazing investor section end ==*/
+.amazing-investor h2, .amazing-investor h4 {
+	color: #fff;
+}
+#slick .slick-list {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+#slick .slick-slide {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+#slick .slick-slide:focus {
+    outline: none;
+}
+.slick-slide img {
+	width: auto;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 1rem;
+}
+.card {
+	min-height: 300px;
+}
+.card-body {
+	padding: 1rem !important;
+}
