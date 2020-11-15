@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 38px;
+    line-height: 1.2em;
+}
+/*== First section css ==*/
+.home-typingandvideo-section{
+    background-image: url(../img/banner-bg-3.jpg);
+    height: 100vh;
+}
+.home-typingandvideo-section .container {
+    height: 100%;
+}
+.home-typingandvideo-section .row {
+	height: 100%;
+	align-content: center;
+}
+.typing-column{
+    align-self: center;
+}
+.typing-column h1, .typing-column p {
+	color: #fff;
+}
+@media all and (min-width: 768px) and (max-width: 980px) {
+    .home-typingandvideo-section{
+        height: 70vh;
+    }
+    .typing-column h1{
+        font-size: 23px;
+    }
+}
+@media all and (max-width: 767px) {
+    .home-typingandvideo-section{
+        height: 70vh;
+    }
+    .typing-column h1 {
+        font-size: 20px;
+    }
+}
+.blue-btn {
+	background-color: #3781ff;
+	border-radius: 30px;
+	color: #fff;
+	font-size: 20px;
+	padding: 10px 20px;
+}
+.blue-btn:hover {
+	background-color: #0c65ff;
+	color: #fff;
+}
+/*== First section css end ==*/
+
+/*== amazing investor section ==*/
+.amazing-investor {
+	background-color: #3f49b0;
+	padding: 30px 0px;
+	color: white;
+	text-align: center;
+}
+/*== amazing investor section end ==*/
