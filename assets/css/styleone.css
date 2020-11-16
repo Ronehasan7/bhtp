@@ -160,6 +160,7 @@ a:hover {
     color: #fff;
     text-align: center;
 }
+.quotes {display: none;}
 .blue-btn {
 	background-color: #0c65ff;
 	border-radius: 30px;
@@ -219,7 +220,7 @@ a:hover {
 /*== amazing investor section ==*/
 .amazing-investor {
 	background-color: #3f49b0;
-	padding: 30px 0px;
+	padding: 60px 0px;
 	text-align: center;
 }
 .amazing-investor h2, .amazing-investor h4 {
