@@ -137,7 +137,7 @@ a:hover {
 .home-typingandvideo-section {
 	background-image: url(../img/banner-bg-3.jpg);
 	padding-top: 5%;
-	padding-bottom: 13%;
+	padding-bottom: 18%;
 }
 .home-typingandvideo-section .container {
     height: 100%;
@@ -207,7 +207,7 @@ a:hover {
     padding-bottom: 5%;
 }
 .video-column {
-	margin-top: -15%;
+	margin-top: -22%;
 }
 @media all and (min-width: 981px) and (max-width: 1279px) {
     .video-column {
