@@ -1,3 +1,6 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
 
 h1, h2, h3, h4, h5, h6 {
@@ -7,6 +10,126 @@ h1{
     font-size: 38px;
     line-height: 1.2em;
 }
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+a {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #e76668;
+  text-decoration: none;
+}
+
+.bg-blue{
+  background-color: #6e7df0;
+}
+.bg-maincolor{
+  background-color: #121f59;
+}
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+.back-to-top {
+  position: fixed;
+  display: none;
+  right: 15px;
+  bottom: 15px;
+  z-index: 99999;
+}
+
+.back-to-top i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  background: #e03a3c;
+  color: #fff;
+  transition: all 0.4s;
+}
+
+.back-to-top i:hover {
+  background: #e35052;
+  color: #fff;
+}
+
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 0 0;
+}
+.page-header {
+	padding: 0;
+	overflow: visible;
+}
+#main-header {
+	padding: 0;
+}
+
+#header .logo {
+  font-size: 32px;
+  margin: 0;
+  padding: 10px;
+  line-height: 1;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.search-form .form-control {
+	border-radius: 30px;
+}
+
+@media (min-width: 1025px) {
+#main-header .container {
+	border-radius: 50px;
+	max-width: 80%;
+}
+}
+@media (max-width: 1024px) {
+  #main-header .container {
+    max-width: 100%;
+  }
+  }
+
+@media (max-width: 980px) {
+  #top-header #mobile-top, #top-header #mobile-top ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 0;
+  }
+  #top-header #mobile-top ul li {
+    margin: 0 5px;
+  }
+  #main-header #navbarsExample07 {
+    padding: 20px;
+    /* background-color: red; */
+    /* position: inherit; */
+    /* display: inline; */
+    /* margin: 2%; */
+  }
+}
+
 /*== First section css ==*/
 .home-typingandvideo-section{
     background-image: url(../img/banner-bg-3.jpg);
