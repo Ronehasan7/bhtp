@@ -248,3 +248,19 @@ a:hover {
 	color: #3f49b0;
 }
 /*== amazing investor section end ==*/
+
+
+
+/*=== Footer ===*/
+.footer-top {
+    padding: 30px 0 30px 0;
+}
+.footer-top h3 {
+    font-size: 20px;
+    line-height: 1;
+    font-weight: 700;
+    color: #ffffff;
+}
+.footer-copyright {
+    color: #ffffff;
+}
