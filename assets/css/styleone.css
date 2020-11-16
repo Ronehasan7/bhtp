@@ -92,6 +92,9 @@ a:hover {
 .search-form .form-control {
 	border-radius: 30px;
 }
+#top-header .dropdown-menu.show {
+	z-index: 9999;
+}
 
 @media (min-width: 1025px) {
 #main-header .container, #top-header .container {
@@ -131,9 +134,10 @@ a:hover {
 }
 
 /*== First section css ==*/
-.home-typingandvideo-section{
-    background-image: url(../img/banner-bg-3.jpg);
-    height: 70vh;
+.home-typingandvideo-section {
+	background-image: url(../img/banner-bg-3.jpg);
+	padding-top: 5%;
+	padding-bottom: 13%;
 }
 .home-typingandvideo-section .container {
     height: 100%;
