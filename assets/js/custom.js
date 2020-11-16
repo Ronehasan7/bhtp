@@ -62,7 +62,7 @@ var TxtRotate = function(el, toRotate, period) {
 */
 var breakpoint = {
   // Extra Small screen / phone
-  sm: 300,
+  xs: 300,
   // Small screen / phone
   sm: 320,
   // Medium screen / tablet
