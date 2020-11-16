@@ -10,7 +10,7 @@ h1{
 /*== First section css ==*/
 .home-typingandvideo-section{
     background-image: url(../img/banner-bg-3.jpg);
-    height: 100vh;
+    height: 70vh;
 }
 .home-typingandvideo-section .container {
     height: 100%;
@@ -21,41 +21,73 @@ h1{
 }
 .typing-column{
     align-self: center;
+    margin-bottom: 20px;
+}
+.typing-column h1{
+    font-size: 60px;
+}
+.typing-column p {
+    font-size: 24px;
 }
 .typing-column h1, .typing-column p {
-	color: #fff;
-}
-@media all and (min-width: 768px) and (max-width: 980px) {
-    .home-typingandvideo-section{
-        height: 70vh;
-    }
-    .typing-column h1{
-        font-size: 23px;
-    }
-}
-@media all and (max-width: 767px) {
-    .home-typingandvideo-section{
-        height: 70vh;
-    }
-    .typing-column {
-        margin-bottom: 20px;
-    }
-    .typing-column h1 {
-        font-size: 20px;
-    }
+    color: #fff;
+    text-align: center;
 }
 .blue-btn {
-	background-color: #3781ff;
+	background-color: #0c65ff;
 	border-radius: 30px;
 	color: #fff;
 	font-size: 20px;
-	padding: 10px 20px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    display: flex;
 }
 .blue-btn:hover {
-	background-color: #0c65ff;
+	background-color:  #121f59;
 	color: #fff;
 }
+@media all and (max-width: 767px) {  
+    .home-typingandvideo-section{
+        height: 60vh;
+    }   
+    .typing-column h1 {
+        font-size: 20px;
+    } 
+    .typing-column p {
+        font-size: 16px;
+    }   
+    .blue-btn {
+        font-size: 16px;
+    }
+}
+@media all and (min-width: 768px) and (max-width: 980px) {
+    .home-typingandvideo-section{
+        height: 60vh;
+    }
+    .typing-column h1{
+        font-size: 36px;
+    }
+    .typing-column p {
+        font-size: 19px;
+    }
+}
+
 /*== First section css end ==*/
+
+
+/*== Second section css start ==*/
+.secode-section{
+    padding-bottom: 5%;
+}
+.video-column {
+	margin-top: -15%;
+}
+@media all and (min-width: 981px) and (max-width: 1279px) {
+    .video-column {
+        margin-top: -12%;
+    }    
+}
+/*== Second section css end ==*/
 
 /*== amazing investor section ==*/
 .amazing-investor {
@@ -89,3 +121,7 @@ h1{
 .card-body {
 	padding: 1rem !important;
 }
+.card-text a {
+	color: #3f49b0;
+}
+/*== amazing investor section end ==*/

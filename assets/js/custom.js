@@ -61,8 +61,10 @@ var TxtRotate = function(el, toRotate, period) {
     Carousel
 */
 var breakpoint = {
+  // Extra Small screen / phone
+  sm: 300,
   // Small screen / phone
-  sm: 576,
+  sm: 320,
   // Medium screen / tablet
   md: 768,
   // Large screen / desktop
@@ -84,9 +86,16 @@ $('#slick').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   responsive: [{
-      breakpoint: breakpoint.sm,
+      breakpoint: breakpoint.xs,
       settings: {
         slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: breakpoint.sm,
+      settings: {
+        slidesToShow: 2,
         slidesToScroll: 1
       }
     },
@@ -100,14 +109,14 @@ $('#slick').slick({
     {
       breakpoint: breakpoint.lg,
       settings: {
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1
       }
     },
     {
       breakpoint: breakpoint.xl,
       settings: {
-        slidesToShow: 4,
+        slidesToShow: 3,
         slidesToScroll: 1
       }
     }
